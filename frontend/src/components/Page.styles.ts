@@ -29,6 +29,11 @@ export const Button = styled.button<{
 
 export const Input = styled.input`
   margin: 0.3rem 0 0 0;
-  
- 
+`
+
+export const Row = styled.div`
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  gap: 1rem;
 `
